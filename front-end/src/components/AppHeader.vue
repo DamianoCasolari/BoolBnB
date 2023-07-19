@@ -18,8 +18,12 @@ export default {
                 <!-- <div class="bg_double_show body_minus_header_block"></div> -->
 
                 <router-link :to="{ name: 'home' }" class="text-decoration-none fw-bold fs-2 text-dark">
-                    <img class="logo" src="../assets/logo/provaconexpand-01.svg" alt="">
-                    <!-- <h2 class="align-middle logo_font">BoolBnB</h2> -->
+                    <!-- <img class="logo" src="../assets/logo/provaconexpand-01.svg" alt=""> -->
+                    <div class="logo_side position-relative">
+
+                        <div class=" logo_position">BoolBnB</div>
+
+                    </div>
                 </router-link>
 
                 <button class="navbar-toggler d-lg-none border-0" type="button" data-bs-toggle="collapse"
